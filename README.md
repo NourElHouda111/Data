@@ -1,6 +1,6 @@
 # Data
 - machine.csv file contains the specification of machines (Global id,cpuFrequency,Ram,disk, MIPS,transmission power, compouting 
-     power, region, id of machine in region) 
+     power, region(1,2,3,4(Cloud),in the code 0 indicates local), id of machine in region) 
 - task.csv file contains the specification of tasks (id,cpuFrequency,Ram,disk,MI, dataout size, data in size, execution 
      constraint (-1 means task not associated to tc), Transfer constraint (-1 means task not associated to tc))
 - bandwidth_userResource.csv contains the bandwidth between user and resourcs of first region 
